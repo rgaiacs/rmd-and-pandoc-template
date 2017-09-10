@@ -8,7 +8,7 @@ before_script:
 
 pages:
   script:
-    - Rscript -e "rmarkdown::render('{paper.Rmd}')" && mv paper.html index.html
+    - Rscript -e "rmarkdown::render('paper.Rmd')" && mv paper.html index.html
   artifacts:
     paths:
     - public
