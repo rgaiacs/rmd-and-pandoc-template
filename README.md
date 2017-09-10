@@ -76,6 +76,8 @@ Alice and Bob wrote on their lab notebook
    Visit [Overleaf's APA6 template](https://www.overleaf.com/latex/templates/your-apa6-style-manuscript/kngbbqpypjcq#.WbQ2Mzt0N4k),
    copy it and save as `_pandoc/templates/apa6.tex`.
 4. Change `_pandoc/templates/apa6.tex` to make use of Pandoc's variables `title`, `author` and `body`. Also include some necessary LaTeX packages.
+
+   The file should look like https://gitlab.com/rgaiacs/rmd-and-pandoc-template/blob/solution/_pandoc/templates/apa6.tex.
 5. Add Pandoc arguments.
 
    ~~~
@@ -111,6 +113,9 @@ Alice and Bob wrote on their lab notebook
 
    You can use [Overleaf's IEEE Photonics Journal Paper template](https://www.overleaf.com/latex/examples/ieee-photonics-journal-paper-template-example-submission/bsfjjfkdsjds#.WbUNBDt0N4k). **You will need to download the `IEEEphot.cls`.**
 
+   The template should look like https://gitlab.com/rgaiacs/rmd-and-pandoc-template/blob/solution/_pandoc/templates/ieeephot.tex.
+   And the `*.cls` is available at https://gitlab.com/rgaiacs/rmd-and-pandoc-template/blob/solution/IEEEphot.cls.
+
 **Looks like that Alice and Bob can use Pandoc's custom template to save time!**
 
 ## `--data-dir` versus `$HOME/.pandoc`
@@ -120,6 +125,8 @@ but they agreed that using `--data-dir` would make easy for reproduce their work
 at the cost of duplicated files.
 
 ## HTML
+
+A custom template is available at https://gitlab.com/rgaiacs/rmd-and-pandoc-template/blob/solution/_pandoc/templates/university-of-manchester.html.
 
 ## Appendix
 
