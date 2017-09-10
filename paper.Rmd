@@ -6,10 +6,12 @@ output:
   pdf_document:
     pandoc_args: [
       "--data-dir", "_pandoc",
-      "--template", "apa6.tex"
+      "--template", "apa6.tex",
       "--output", "apa6.pdf"
     ]
 ---
+
+Foo
 
 The car dataset gives the speed of cars and the distances taken to stop. **Note that the data were recorded in the 1920s.**
 
